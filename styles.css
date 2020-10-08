@@ -1,0 +1,21 @@
+h1 {
+	color: black;	
+	
+	font-size: 46,548pt;
+
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-size: 15pt;
+	font-family: 'Lato';
+	font-weight: 500;
+	letter-spacing: 320mm;
+}
+p{
+	font-size: 12pt;
+	font-family: 'Lato';
+	font-weight: 400;
+}
+header{
+	background-color: rgb(183.00000429153442, 223.00000190734863, 248.0000004172325);
+}
