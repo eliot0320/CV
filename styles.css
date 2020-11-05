@@ -38,6 +38,12 @@ body{
 header{
 	display: flex;
 }
+.partie-de-droite{
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+	width: 60%
+}
 .contact_texte {
   position: relative;
   width: 100px;
@@ -154,17 +160,13 @@ header{
 	flex-direction: row;
 	justify-content: space-between;
 }
-.partie-de-gauche{
+
+.langues_elements{
 	display: flex;
-	flex-direction: column;
-	margin-left: 40px;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 20px;
 	width: 40%;
-}
-.partie-de-droite{
-	display: flex;
-	flex-direction: column;
-	margin-right: 40px;
-	width: 60%
 }
 .photo{
 	position: relative;
@@ -207,5 +209,154 @@ body{
 
 }
 
-
-
+.francais_fr {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  right: -20px;
+  z-index: 2;
+}
+.francais_rond {
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  width: 90px;
+  height: 0px;
+  z-index: 1;
+}
+.anglais_an {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  right: -20px;
+  z-index: 2;
+}
+.anglais_rond {
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  width: 90px;
+  height: 0px;
+  z-index: 1;
+}
+.espagnol_es {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  right: -20px;
+  z-index: 2;
+}
+.espagnol_rond {
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  width: 90px;
+  height: 0px;
+  z-index: 1;
+}
+.partie-de-gauche{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+	width: 40%;
+}
+.contact_adresse_logo{
+	margin-top: 17px;
+	margin-right: 10px;
+}
+.contact_adresse{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 30px;
+	width: 100%;
+}
+.contact_mail_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: -5px
+}
+.contact_mail{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: -10px;
+	width: 100%;
+}
+.contact_telephone_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: px
+}
+.contact_telephone{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.contact_web_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: px
+}
+.contact_web{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 100%;
+}
+.interets_sport_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: px
+}
+.interets_sport{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 100%;
+}
+.interets_musique_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: px
+}
+.interets_musique{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 100%;
+}
+.interets_art_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: px
+}
+.interets_art{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 100%;
+}
+.interets_voyage_logo{
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: px
+}
+.interets_voyage{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 100%;
+}
